@@ -1,4 +1,4 @@
-# Plazo · Agenda académica (React)
+# Entregas · Agenda académica (React)
 
 **Integrantes:** (Maximiliano Valdes)
 
