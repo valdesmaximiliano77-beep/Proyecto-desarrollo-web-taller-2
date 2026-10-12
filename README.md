@@ -1,6 +1,6 @@
 # Plazo · Agenda académica (React)
 
-**Integrantes:** (completar)
+**Integrantes:** (Maximiliano Valdes)
 
 **Problemática:** los estudiantes pierden el control de tareas, controles y proyectos de varias asignaturas. Plazo permite registrarlos, filtrarlos, cambiar su estado, ver el avance y detectar entregas que caen en feriado.
 
@@ -34,17 +34,14 @@ npm run dev
 - **Por qué aporta:** avisa cuando una entrega pendiente coincide con un feriado.
 
 ## Uso de Inteligencia Artificial
-Herramienta: Claude (Anthropic). Completar cada fila con lo que realmente ocurrió.
+Herramienta: Claude (Anthropic).
+ Elegir la API  Propuso la API de feriados y su integración con `useEffect`
+ Realizo un cambio estetico en los colores de la web junto a algunas ubicaciones para que siguiera mejor la jerarquia de visualizacion. 
 
-| Uso | Qué hizo la IA | Qué hice yo |
-|---|---|---|
-| Elegir la API y cómo aplicarla | Propuso la API de feriados y su integración con `useEffect` | (completar) |
-| Migrar la app de HTML/JS a React | Generó la estructura de componentes, páginas, hook y servicio | (completar: revisión, cambios de nombres, pruebas) |
-| Validación de fechas y formulario | Generó la validación y los límites de fecha | (completar) |
-| Diseño previo | Propuso mapa de navegación, wireframes y paleta | (completar) |
-| Prioridades y calendario | Generó el campo de prioridad, filtros y la vista de calendario | (completar) |
 
-Prompt de ejemplo: (copiar uno real) · Cómo verifiqué el resultado: (completar) · Qué aprendí: (completar)
+
+
+Prompts usados: Necesito una API publica que me sirva para una agenda academica utilizando react y que sea relevante para este caso
 
 ## Git Flow
 Ramas `main` y `develop`; una rama `feature/` por funcionalidad, integrada con Pull Request.
